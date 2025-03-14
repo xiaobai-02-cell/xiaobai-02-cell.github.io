@@ -1,0 +1,37 @@
+/* 文章标签样式 */
+.article-tags {
+    display: inline-block;
+    font-size: 0.85em;
+    color: #999;
+  }
+  
+  .article-tags a {
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+  
+  .article-tags a:hover {
+    color: #ffcc00; /* 鼠标悬停效果 */
+  }
+  
+  /* 底部布局：左侧标签 + 右侧阅读更多 */
+  footer {
+    display: flex;
+    justify-content: space-between; /* 左右对齐 */
+    align-items: center; /* 垂直居中 */
+  }
+  
+  /* 阅读更多按钮样式 */
+  .read-more {
+    margin-left: auto;
+    padding: 0.3em 0.8em;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    background-color: #008ba3;
+  }
+  
